@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+<listeners>
+<listener class-name="listeners.CustomListeners"></listener>
+
+</listeners>
+
+ <test name="url">
+    <classes>
+        <class name="testcases.OpenBrowserAndUrl_Test"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+  <test name="login">
+    <classes>
+      <class name="testcases.LoginPage_Test"/> 
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="clear">
+    <classes>
+      <class name="testcases.ClearShoppingPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="additems">
+    <classes>
+      <class name="testcases.AddBooksPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="gotocardss">
+    <classes>
+      <class name="testcases.GotoCardPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="billing">
+    <classes>
+      <class name="testcases.BillingAddressPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="checkoutdetails">
+    <classes>
+      <class name="testcases.CheckoutDetailsPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="sucee">
+    <classes>
+      <class name="testcases.SuccessOrderPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="logout">
+    <classes>
+      <class name="testcases.LogoutPage_Test"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+
+</suite> <!-- Suite -->

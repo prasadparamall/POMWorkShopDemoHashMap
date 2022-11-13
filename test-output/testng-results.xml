@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-13T13:03:41 IST" name="Suite" finished-at="2022-11-13T13:04:44 IST" duration-ms="63269">
+    <groups>
+    </groups>
+    <test started-at="2022-11-13T13:03:41 IST" name="url" finished-at="2022-11-13T13:03:51 IST" duration-ms="9670">
+      <class name="testcases.OpenBrowserAndUrl_Test">
+        <test-method signature="openBrowserAndURL()[pri:1, instance:testcases.OpenBrowserAndUrl_Test@32ee6fee]" started-at="2022-11-13T13:03:41 IST" name="openBrowserAndURL" finished-at="2022-11-13T13:03:51 IST" duration-ms="9541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndURL -->
+      </class> <!-- testcases.OpenBrowserAndUrl_Test -->
+    </test> <!-- url -->
+    <test started-at="2022-11-13T13:03:51 IST" name="login" finished-at="2022-11-13T13:03:58 IST" duration-ms="7546">
+      <class name="testcases.LoginPage_Test">
+        <test-method signature="EnterValidCredentials()[pri:0, instance:testcases.LoginPage_Test@4310d43]" started-at="2022-11-13T13:03:51 IST" name="EnterValidCredentials" finished-at="2022-11-13T13:03:58 IST" duration-ms="7542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterValidCredentials -->
+      </class> <!-- testcases.LoginPage_Test -->
+    </test> <!-- login -->
+    <test started-at="2022-11-13T13:03:58 IST" name="clear" finished-at="2022-11-13T13:04:05 IST" duration-ms="7044">
+      <class name="testcases.ClearShoppingPage_Test">
+        <test-method signature="clearshoppingcard()[pri:0, instance:testcases.ClearShoppingPage_Test@1151e434]" started-at="2022-11-13T13:03:58 IST" name="clearshoppingcard" finished-at="2022-11-13T13:04:05 IST" duration-ms="7036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearshoppingcard -->
+      </class> <!-- testcases.ClearShoppingPage_Test -->
+    </test> <!-- clear -->
+    <test started-at="2022-11-13T13:04:05 IST" name="additems" finished-at="2022-11-13T13:04:09 IST" duration-ms="3278">
+      <class name="testcases.AddBooksPage_Test">
+        <test-method signature="addbookspage()[pri:0, instance:testcases.AddBooksPage_Test@d9345cd]" started-at="2022-11-13T13:04:05 IST" name="addbookspage" finished-at="2022-11-13T13:04:09 IST" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addbookspage -->
+      </class> <!-- testcases.AddBooksPage_Test -->
+    </test> <!-- additems -->
+    <test started-at="2022-11-13T13:04:09 IST" name="gotocardss" finished-at="2022-11-13T13:04:11 IST" duration-ms="2762">
+      <class name="testcases.GotoCardPage_Test">
+        <test-method signature="gotocard()[pri:0, instance:testcases.GotoCardPage_Test@13fd2ccd]" started-at="2022-11-13T13:04:09 IST" name="gotocard" finished-at="2022-11-13T13:04:11 IST" duration-ms="2753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocard -->
+      </class> <!-- testcases.GotoCardPage_Test -->
+    </test> <!-- gotocardss -->
+    <test started-at="2022-11-13T13:04:11 IST" name="billing" finished-at="2022-11-13T13:04:21 IST" duration-ms="9672">
+      <class name="testcases.BillingAddressPage_Test">
+        <test-method signature="BillingAdd()[pri:0, instance:testcases.BillingAddressPage_Test@52b1beb6]" started-at="2022-11-13T13:04:11 IST" name="BillingAdd" finished-at="2022-11-13T13:04:21 IST" duration-ms="9663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BillingAdd -->
+      </class> <!-- testcases.BillingAddressPage_Test -->
+    </test> <!-- billing -->
+    <test started-at="2022-11-13T13:04:21 IST" name="checkoutdetails" finished-at="2022-11-13T13:04:27 IST" duration-ms="5856">
+      <class name="testcases.CheckoutDetailsPage_Test">
+        <test-method signature="checkoutDetails_Page()[pri:0, instance:testcases.CheckoutDetailsPage_Test@2d52216b]" started-at="2022-11-13T13:04:21 IST" name="checkoutDetails_Page" finished-at="2022-11-13T13:04:27 IST" duration-ms="5845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutDetails_Page -->
+      </class> <!-- testcases.CheckoutDetailsPage_Test -->
+    </test> <!-- checkoutdetails -->
+    <test started-at="2022-11-13T13:04:27 IST" name="sucee" finished-at="2022-11-13T13:04:41 IST" duration-ms="13801">
+      <class name="testcases.SuccessOrderPage_Test">
+        <test-method signature="successOrder_Page()[pri:0, instance:testcases.SuccessOrderPage_Test@60bd273d]" started-at="2022-11-13T13:04:27 IST" name="successOrder_Page" finished-at="2022-11-13T13:04:41 IST" duration-ms="13791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successOrder_Page -->
+      </class> <!-- testcases.SuccessOrderPage_Test -->
+    </test> <!-- sucee -->
+    <test started-at="2022-11-13T13:04:41 IST" name="logout" finished-at="2022-11-13T13:04:44 IST" duration-ms="3346">
+      <class name="testcases.LogoutPage_Test">
+        <test-method signature="logout()[pri:1, instance:testcases.LogoutPage_Test@5677323c]" started-at="2022-11-13T13:04:41 IST" name="logout" finished-at="2022-11-13T13:04:44 IST" duration-ms="2898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LogoutPage_Test@5677323c]" started-at="2022-11-13T13:04:44 IST" name="tearDown" finished-at="2022-11-13T13:04:44 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LogoutPage_Test -->
+    </test> <!-- logout -->
+  </suite> <!-- Suite -->
+</testng-results>

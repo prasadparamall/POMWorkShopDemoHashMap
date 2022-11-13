@@ -1,0 +1,9 @@
+testcases\CheckoutDetailsPage_Test.class
+testcases\AddBooksPage_Test.class
+testcases\OpenBrowserAndUrl_Test.class
+testcases\SuccessOrderPage_Test.class
+testcases\BillingAddressPage_Test.class
+testcases\ClearShoppingPage_Test.class
+testcases\GotoCardPage_Test.class
+testcases\LoginPage_Test.class
+testcases\LogoutPage_Test.class
